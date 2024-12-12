@@ -157,3 +157,9 @@ GitHub Repository: Public repository link with all project files and documentati
 
 Live Presentation: Showcase project functionality via Zoom.
 
+
+## Documentation
+
+You can access the full documentation for this project [here](https://docs.google.com/document/d/e/2PACX-1vTz45bDlRk6W9pQwBRt0Dppocqfl_w3ED3DBvilS5JDpdkAFk7e4wGABkwmZXDXBqC50HuH-KYJixHG/pub).
+
+
