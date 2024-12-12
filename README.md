@@ -3,7 +3,6 @@ AwaRestaurantPortal is a web-based platform developed using PHP and MySQL to hel
 
 
 
-
 AwaRestaurantPortal
 
 Overview
@@ -135,3 +134,4 @@ Report: Detailed explanation of code, database structure, and platform features.
 GitHub Repository: Public repository link with all project files and documentation.
 
 Live Presentation: Showcase project functionality via Zoom.
+
