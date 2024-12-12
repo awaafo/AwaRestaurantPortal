@@ -3,13 +3,11 @@ AwaRestaurantPortal is a web-based platform developed using PHP and MySQL to hel
 
 
 
-AwaRestaurantPortal
+#                                                  AwaRestaurantPortal
 
-Overview
 
-AwaRestaurantPortal is a web-based platform designed to streamline restaurant management by providing tools for managing reservations, tracking customer preferences, and enhancing the dining experience. This project was developed using PHP and MySQL as part of a final project for CIS coursework.
 
-Features
+# Features
 
 Customer Management:
 
@@ -23,7 +21,10 @@ Add, modify, or cancel reservations.
 
 Track reservations by customer with integrated dining preferences.
 
-Dining Preferences:
+
+
+
+# Dining Preferences:
 
 Store and retrieve customer-specific preferences, including favorite tables and dietary restrictions.
 
@@ -39,7 +40,9 @@ customerName (VARCHAR)
 
 contactInfo (VARCHAR, email or phone)
 
-Reservations Table
+
+
+ # Reservation Table
 
 reservationId (Primary Key, INT, Auto Increment)
 
@@ -63,7 +66,9 @@ dietaryRestrictions (VARCHAR)
 
 Key Functionalities
 
-Stored Procedures and Functions
+
+
+# Stored Procedures and Functions
 
 findReservations(customerId): Retrieves all reservations for a specific customer.
 
@@ -71,11 +76,17 @@ addSpecialRequest(reservationId, requests): Updates special requests for a reser
 
 addReservation(customerName, reservationTime, numberOfGuests, specialRequests): Checks or creates a customer and then adds a reservation.
 
-PHP Implementation
+
+
+# PHP Implementation
 
 Database Connection: Updated in RestaurantDatabase.php to match MySQL server details.
 
-Core Methods:
+
+
+
+
+# Core Methods:
 
 addCustomer($customerName, $contactInfo)
 
@@ -85,7 +96,10 @@ getCustomerPreferences($customerId)
 
 viewReservations()
 
-Bonus Features
+
+
+
+# Bonus Features
 
 Additional methods:
 
@@ -99,7 +113,11 @@ searchPreferences($customerId)
 
 Setup and Deployment
 
-Prerequisites
+
+
+
+
+# Prerequisites
 
 PHP: Install a local PHP server (e.g., XAMPP, WAMP, or LAMP).
 
@@ -125,7 +143,11 @@ Start the PHP server and test the application locally.
 
 Access the application through your local server (e.g., http://localhost/AwaRestaurantPortal).
 
-Deliverables
+
+
+
+
+# Deliverables
 
 Source Code: PHP files and SQL scripts.
 
